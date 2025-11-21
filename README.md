@@ -35,8 +35,8 @@ Cada sensor se ejecuta en su **propio hilo**, generando **1000 lecturas simulada
 
 ```bash
 # 1. Clonar el repositorio (si aplica)
-git clone <tu-repositorio>
-cd proyecto-sensores-paralelo
+git clone https://github.com/Davandres/ProyectoIB_SO.git
+cd ProyectoIB_SO
 
 # 2. Compilar
 gcc -o sensores proyectoIBB.c -lpthread 
