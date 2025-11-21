@@ -39,7 +39,7 @@ git clone <tu-repositorio>
 cd proyecto-sensores-paralelo
 
 # 2. Compilar
-gcc -o sensores proyectoIBB.c -lpthread -lrt
+gcc -o sensores proyectoIBB.c -lpthread 
 
 # 3. Ejecutar
 ./sensores
