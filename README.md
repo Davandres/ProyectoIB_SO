@@ -1,6 +1,6 @@
 # Sistema de Sensores Inteligentes – Procesamiento Paralelo con Hilos en C
 
-Este proyecto simula un **sistema de monitoreo ambiental** mediante sensores inteligentes que procesan datos de forma **concurrente** usando hilos (`pthread`) en C. Fue desarrollado como parte de la asignatura **Sistemas Operativos** en la Escuela Politécnica Nacional.
+Este proyecto simula un **sistema de monitoreo ambiental** mediante sensores inteligentes que procesan datos de forma **concurrente** usando hilos (`pthread`) en C. Fue desarrollado como parte de la asignatura **Sistemas Operativos** de la Escuela Politécnica Nacional.
 
 ## Descripción
 
