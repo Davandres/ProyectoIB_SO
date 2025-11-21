@@ -10,7 +10,7 @@ El programa modela cuatro sensores ambientales:
 - **Ruido** (30 dB – 120 dB) → Alerta si > 90 dB  
 - **Luminosidad** (100 – 1000 lux) → Alerta si < 150 lux  
 
-Cada sensor se ejecuta en su **propio hilo**, generando **1000 lecturas simuladas** (transacciones) y registrando alertas en un archivo con **timestamp preciso**.
+Cada sensor se ejecuta en su **propio hilo**, generando **10000 lecturas simuladas** (transacciones) y registrando alertas en un archivo con **timestamp preciso**.
 
 ## Características
 
@@ -34,7 +34,7 @@ Cada sensor se ejecuta en su **propio hilo**, generando **1000 lecturas simulada
 ## Cómo compilar y ejecutar
 
 ```bash
-# 1. Clonar el repositorio (si aplica)
+# 1. Clonar el repositorio
 git clone https://github.com/Davandres/ProyectoIB_SO.git
 cd ProyectoIB_SO
 
