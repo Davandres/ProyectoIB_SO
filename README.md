@@ -2,7 +2,7 @@
 
 Este proyecto simula un **sistema de monitoreo ambiental** mediante sensores inteligentes que procesan datos de forma **concurrente** usando hilos (`pthread`) en C. Fue desarrollado como parte de la asignatura **Sistemas Operativos** en la Escuela Politécnica Nacional.
 
-## 📌 Descripción
+## Descripción
 
 El programa modela cuatro sensores ambientales:
 - **Temperatura** (15°C – 45°C) → Alerta si > 35°C  
@@ -12,7 +12,7 @@ El programa modela cuatro sensores ambientales:
 
 Cada sensor se ejecuta en su **propio hilo**, generando **1000 lecturas simuladas** (transacciones) y registrando alertas en un archivo con **timestamp preciso**.
 
-## ✅ Características
+## Características
 
 - Procesamiento paralelo con `pthread`
 - Sincronización mediante **mutex** para:
@@ -22,7 +22,7 @@ Cada sensor se ejecuta en su **propio hilo**, generando **1000 lecturas simulada
 - Comparación de rendimiento: **versión paralela vs secuencial**
 - Simulación realista de un sistema IoT concurrente
 
-## 📊 Resultados esperados
+## Resultados esperados
 
 | Versión       | Tiempo (aprox.) | Uso de CPU | Aceleración |
 |---------------|------------------|------------|-------------|
@@ -31,7 +31,7 @@ Cada sensor se ejecuta en su **propio hilo**, generando **1000 lecturas simulada
 
 > Los valores exactos dependerán del hardware, pero siempre se observa una clara mejora en rendimiento.
 
-## ▶️ Cómo compilar y ejecutar
+## Cómo compilar y ejecutar
 
 ```bash
 # 1. Clonar el repositorio (si aplica)
